@@ -17,7 +17,6 @@ export interface RoofSegmentOptions {
   secondaryColor?: THREE.ColorRepresentation;
 }
 const BOX = new THREE.BoxGeometry(1,1,1);
-const CYLINDER = new THREE.CylinderGeometry(1,1,1,8);
 export function createRoofSegment(options: RoofSegmentOptions = {}): THREE.Group {
  const {variant='flat',width:w=2.5,depth:d=2,height:h=0.4,primaryColor='#8FD6BE',secondaryColor='#F2E8D5'}=options;
  if(!['flat','sloped'].includes(variant))throw new RangeError('Unsupported roof-segment variant');
@@ -29,11 +28,6 @@ export function createRoofSegment(options: RoofSegmentOptions = {}): THREE.Group
  const s=new THREE.MeshStandardMaterial({color:secondaryColor,roughness:1,metalness:0});
  const b=(name:string,x:number,y:number,z:number,sx:number,sy:number,sz:number,m:THREE.Material):THREE.Mesh=>{
    const mesh=new THREE.Mesh(BOX,m);mesh.name=name;mesh.position.set(x,y,z);mesh.scale.set(sx,sy,sz);
-   mesh.castShadow=true;mesh.receiveShadow=true;root.add(mesh);return mesh;
- };
- const cy=(name:string,x:number,y:number,z:number,r:number,height:number,m:THREE.Material,segments=8):THREE.Mesh=>{
-   const mesh=new THREE.Mesh(segments===8?CYLINDER:new THREE.CylinderGeometry(1,1,1,segments),m);
-   mesh.name=name;mesh.position.set(x,y,z);mesh.scale.set(r,height,r);
    mesh.castShadow=true;mesh.receiveShadow=true;root.add(mesh);return mesh;
  };
  
