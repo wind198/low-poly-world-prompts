@@ -1,0 +1,3239 @@
+[
+  {
+    "id": "nature/round-canopy-tree",
+    "category": "nature",
+    "name": "Round Canopy Tree",
+    "geometry": "cylindrical trunk; one or three overlapping low-segment spherical canopies",
+    "variants": [
+      "single",
+      "clustered",
+      "layered"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 1.8,
+      "height": 3.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/round-canopy-tree.md"
+  },
+  {
+    "id": "nature/pine-tree",
+    "category": "nature",
+    "name": "Pine Tree",
+    "geometry": "cylindrical trunk; two or three stacked cone crowns",
+    "variants": [
+      "short",
+      "tall",
+      "snow-free"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 1.4,
+      "height": 3.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/pine-tree.md"
+  },
+  {
+    "id": "nature/oak-tree",
+    "category": "nature",
+    "name": "Oak Tree",
+    "geometry": "thick cylinder trunk; branching short cylinders; overlapping polygonal spheroid crowns",
+    "variants": [
+      "compact",
+      "wide"
+    ],
+    "dimensions": {
+      "width": 2.6,
+      "depth": 2.4,
+      "height": 3.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/oak-tree.md"
+  },
+  {
+    "id": "nature/palm-tree",
+    "category": "nature",
+    "name": "Palm Tree",
+    "geometry": "segmented inclined cylindrical trunk; radial elongated low-poly leaves",
+    "variants": [
+      "short",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 2.4,
+      "depth": 2.4,
+      "height": 3.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/palm-tree.md"
+  },
+  {
+    "id": "nature/flowering-tree",
+    "category": "nature",
+    "name": "Flowering Tree",
+    "geometry": "cylinder trunk; clustered pastel blossom spheres",
+    "variants": [
+      "pink",
+      "white",
+      "coral"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 2.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/flowering-tree.md"
+  },
+  {
+    "id": "nature/round-bush",
+    "category": "nature",
+    "name": "Round Bush",
+    "geometry": "two to five low-poly overlapping ellipsoid volumes",
+    "variants": [
+      "round",
+      "oval",
+      "cluster"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.8,
+      "height": 0.65
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/round-bush.md"
+  },
+  {
+    "id": "nature/hedge-segment",
+    "category": "nature",
+    "name": "Hedge Segment",
+    "geometry": "elongated rounded box foliage over narrow soil base",
+    "variants": [
+      "straight",
+      "corner",
+      "end"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 0.45,
+      "height": 0.85
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/hedge-segment.md"
+  },
+  {
+    "id": "nature/grass-patch",
+    "category": "nature",
+    "name": "Grass Patch",
+    "geometry": "small group of thin tapered triangular or cone blades",
+    "variants": [
+      "sparse",
+      "dense",
+      "tuft"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/grass-patch.md"
+  },
+  {
+    "id": "nature/daisy-flower",
+    "category": "nature",
+    "name": "Daisy Flower",
+    "geometry": "thin cylinder stem; radial flattened oval petals; circular central disc",
+    "variants": [
+      "white",
+      "yellow",
+      "pink"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.25,
+      "height": 0.55
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/daisy-flower.md"
+  },
+  {
+    "id": "nature/tulip-flower",
+    "category": "nature",
+    "name": "Tulip Flower",
+    "geometry": "thin stem; two elongated leaves; cup formed from few pointed ellipsoids",
+    "variants": [
+      "pink",
+      "yellow",
+      "coral"
+    ],
+    "dimensions": {
+      "width": 0.2,
+      "depth": 0.2,
+      "height": 0.55
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/tulip-flower.md"
+  },
+  {
+    "id": "nature/sunflower",
+    "category": "nature",
+    "name": "Sunflower",
+    "geometry": "stem with two leaves; flat disk center; radial elongated petal pieces",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.3,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/sunflower.md"
+  },
+  {
+    "id": "nature/flower-bed",
+    "category": "nature",
+    "name": "Flower Bed",
+    "geometry": "low rectangular or circular raised border; soil plane; sparse flower instances",
+    "variants": [
+      "rectangular",
+      "round"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 0.65,
+      "height": 0.38
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/flower-bed.md"
+  },
+  {
+    "id": "nature/flower-pot",
+    "category": "nature",
+    "name": "Flower Pot",
+    "geometry": "tapered cylinder container; soil disc; three stems with simple petals and leaves",
+    "variants": [
+      "tabletop",
+      "medium",
+      "blooming"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 0.45
+    },
+    "placement": "surface",
+    "prompt": "prompts/nature/flower-pot.md"
+  },
+  {
+    "id": "nature/hanging-planter",
+    "category": "nature",
+    "name": "Hanging Planter",
+    "geometry": "bowl-like tapered pot; three straight suspension rods; simple hanging leaf shapes",
+    "variants": [
+      "round",
+      "trailing"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.65
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/nature/hanging-planter.md"
+  },
+  {
+    "id": "nature/climbing-vine",
+    "category": "nature",
+    "name": "Climbing Vine",
+    "geometry": "few connected thin cylinders along a vertical plane; repeated oval leaves",
+    "variants": [
+      "short",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.12,
+      "height": 1.6
+    },
+    "placement": "wall",
+    "prompt": "prompts/nature/climbing-vine.md"
+  },
+  {
+    "id": "nature/cactus",
+    "category": "nature",
+    "name": "Cactus",
+    "geometry": "main upright rounded cylinder; optional small branching cylinder arms",
+    "variants": [
+      "column",
+      "round",
+      "branching"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.7
+    },
+    "placement": "surface",
+    "prompt": "prompts/nature/cactus.md"
+  },
+  {
+    "id": "nature/mushroom",
+    "category": "nature",
+    "name": "Mushroom",
+    "geometry": "short cylinder stem; shallow rounded cap from low-poly sphere segment",
+    "variants": [
+      "single",
+      "cluster"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.25,
+      "height": 0.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/mushroom.md"
+  },
+  {
+    "id": "nature/rock",
+    "category": "nature",
+    "name": "Rock",
+    "geometry": "low-segment faceted icosahedron or scaled irregular polyhedron",
+    "variants": [
+      "small",
+      "medium",
+      "cluster"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.5,
+      "height": 0.4
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/rock.md"
+  },
+  {
+    "id": "nature/tree-stump",
+    "category": "nature",
+    "name": "Tree Stump",
+    "geometry": "short trunk cylinder; flat circular top and wider lower base",
+    "variants": [
+      "short",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 0.5,
+      "depth": 0.5,
+      "height": 0.45
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/tree-stump.md"
+  },
+  {
+    "id": "nature/fallen-log",
+    "category": "nature",
+    "name": "Fallen Log",
+    "geometry": "horizontal 8-sided cylinder; circular end caps",
+    "variants": [
+      "short",
+      "long"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.4,
+      "height": 0.4
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/fallen-log.md"
+  },
+  {
+    "id": "nature/lily-pad",
+    "category": "nature",
+    "name": "Lily Pad",
+    "geometry": "flattened green disc with triangular notch; short flower cone optional",
+    "variants": [
+      "plain",
+      "flowering"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.08
+    },
+    "placement": "water",
+    "prompt": "prompts/nature/lily-pad.md"
+  },
+  {
+    "id": "nature/reeds",
+    "category": "nature",
+    "name": "Reeds",
+    "geometry": "three to seven tall thin cylinders with tapered brown heads",
+    "variants": [
+      "short",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 0.5,
+      "depth": 0.4,
+      "height": 1.0
+    },
+    "placement": "water",
+    "prompt": "prompts/nature/reeds.md"
+  },
+  {
+    "id": "nature/raised-garden-bed",
+    "category": "nature",
+    "name": "Raised Garden Bed",
+    "geometry": "four plank boxes forming border; flat dark soil; sparse plant instances",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.8,
+      "height": 0.45
+    },
+    "placement": "floor",
+    "prompt": "prompts/nature/raised-garden-bed.md"
+  },
+  {
+    "id": "outdoor-architecture/fence-segment",
+    "category": "outdoor-architecture",
+    "name": "Fence Segment",
+    "geometry": "two horizontal beams; repeated spaced vertical pickets; two end posts",
+    "variants": [
+      "picket",
+      "rail",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.12,
+      "height": 1.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/fence-segment.md"
+  },
+  {
+    "id": "outdoor-architecture/fence-post",
+    "category": "outdoor-architecture",
+    "name": "Fence Post",
+    "geometry": "single upright square box or cylinder with cap",
+    "variants": [
+      "square",
+      "round"
+    ],
+    "dimensions": {
+      "width": 0.15,
+      "depth": 0.15,
+      "height": 1.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/fence-post.md"
+  },
+  {
+    "id": "outdoor-architecture/fence-corner",
+    "category": "outdoor-architecture",
+    "name": "Fence Corner",
+    "geometry": "two perpendicular short rail sections connected at a shared post",
+    "variants": [
+      "inside",
+      "outside"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 1.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/fence-corner.md"
+  },
+  {
+    "id": "outdoor-architecture/garden-gate",
+    "category": "outdoor-architecture",
+    "name": "Garden Gate",
+    "geometry": "two posts; hinged rectangle with picket infill; simple handle",
+    "variants": [
+      "single",
+      "double"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.2,
+      "height": 1.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/garden-gate.md"
+  },
+  {
+    "id": "outdoor-architecture/garden-arch",
+    "category": "outdoor-architecture",
+    "name": "Garden Arch",
+    "geometry": "two vertical posts and segmented arched top using straight short beams",
+    "variants": [
+      "wooden",
+      "flowered"
+    ],
+    "dimensions": {
+      "width": 1.6,
+      "depth": 0.55,
+      "height": 2.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/garden-arch.md"
+  },
+  {
+    "id": "outdoor-architecture/pergola",
+    "category": "outdoor-architecture",
+    "name": "Pergola",
+    "geometry": "four vertical posts; four perimeter roof beams; repeated parallel slats",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 3.0,
+      "depth": 2.5,
+      "height": 2.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/pergola.md"
+  },
+  {
+    "id": "outdoor-architecture/gazebo",
+    "category": "outdoor-architecture",
+    "name": "Gazebo",
+    "geometry": "four or six posts; raised platform; low-profile polygonal roof",
+    "variants": [
+      "square",
+      "hexagonal"
+    ],
+    "dimensions": {
+      "width": 3.0,
+      "depth": 3.0,
+      "height": 3.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/gazebo.md"
+  },
+  {
+    "id": "outdoor-architecture/pavilion",
+    "category": "outdoor-architecture",
+    "name": "Pavilion",
+    "geometry": "posts; rectangular roof slab with subtle pitched silhouette; open sides",
+    "variants": [
+      "open",
+      "roofed"
+    ],
+    "dimensions": {
+      "width": 4.0,
+      "depth": 3.0,
+      "height": 3.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/pavilion.md"
+  },
+  {
+    "id": "outdoor-architecture/stone-wall",
+    "category": "outdoor-architecture",
+    "name": "Stone Wall",
+    "geometry": "stacked offset box blocks with broad low-poly caps",
+    "variants": [
+      "low",
+      "tall",
+      "corner"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.4,
+      "height": 0.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/stone-wall.md"
+  },
+  {
+    "id": "outdoor-architecture/path-tile",
+    "category": "outdoor-architecture",
+    "name": "Path Tile",
+    "geometry": "thin beveled rectangular slab with flat neutral surface",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 0.06
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/path-tile.md"
+  },
+  {
+    "id": "outdoor-architecture/stepping-stone",
+    "category": "outdoor-architecture",
+    "name": "Stepping Stone",
+    "geometry": "flattened 8-sided cylinder or irregular low-poly disc",
+    "variants": [
+      "round",
+      "irregular"
+    ],
+    "dimensions": {
+      "width": 0.65,
+      "depth": 0.5,
+      "height": 0.09
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/stepping-stone.md"
+  },
+  {
+    "id": "outdoor-architecture/pavement-tile",
+    "category": "outdoor-architecture",
+    "name": "Pavement Tile",
+    "geometry": "flat rectangular block and inset thin seam-safe border",
+    "variants": [
+      "concrete",
+      "brick"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 0.07
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/pavement-tile.md"
+  },
+  {
+    "id": "outdoor-architecture/grass-tile",
+    "category": "outdoor-architecture",
+    "name": "Grass Tile",
+    "geometry": "plain thin green slab aligned to modular grid",
+    "variants": [
+      "flat",
+      "raised"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 0.06
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/grass-tile.md"
+  },
+  {
+    "id": "outdoor-architecture/garden-border",
+    "category": "outdoor-architecture",
+    "name": "Garden Border",
+    "geometry": "long narrow low box edging with join-safe flat ends",
+    "variants": [
+      "wood",
+      "stone",
+      "brick"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 0.15,
+      "height": 0.18
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/garden-border.md"
+  },
+  {
+    "id": "outdoor-architecture/stair-module",
+    "category": "outdoor-architecture",
+    "name": "Stair Module",
+    "geometry": "stacked offset rectangular blocks with equal rise and run",
+    "variants": [
+      "two-step",
+      "four-step"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 1.2,
+      "height": 0.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/stair-module.md"
+  },
+  {
+    "id": "outdoor-architecture/ramp",
+    "category": "outdoor-architecture",
+    "name": "Ramp",
+    "geometry": "single wedge prism with solid side caps and flat top",
+    "variants": [
+      "straight",
+      "wide"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 2.0,
+      "height": 0.4
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/ramp.md"
+  },
+  {
+    "id": "outdoor-architecture/small-bridge",
+    "category": "outdoor-architecture",
+    "name": "Small Bridge",
+    "geometry": "two parallel side beams; repeated plank treads; simple low rails",
+    "variants": [
+      "flat",
+      "arched-look"
+    ],
+    "dimensions": {
+      "width": 2.2,
+      "depth": 1.0,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/small-bridge.md"
+  },
+  {
+    "id": "outdoor-architecture/fountain",
+    "category": "outdoor-architecture",
+    "name": "Fountain",
+    "geometry": "circular shallow cylinder basin; pedestal cylinder; tiered bowls",
+    "variants": [
+      "single",
+      "tiered"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 1.8,
+      "height": 1.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/fountain.md"
+  },
+  {
+    "id": "outdoor-architecture/pond",
+    "category": "outdoor-architecture",
+    "name": "Pond",
+    "geometry": "irregular flattened polygonal blue surface with raised stone edge segments",
+    "variants": [
+      "oval",
+      "round"
+    ],
+    "dimensions": {
+      "width": 2.8,
+      "depth": 2.0,
+      "height": 0.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/pond.md"
+  },
+  {
+    "id": "outdoor-architecture/drain-grate",
+    "category": "outdoor-architecture",
+    "name": "Drain Grate",
+    "geometry": "shallow box frame; narrow repeated inset bars",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.55,
+      "depth": 0.35,
+      "height": 0.05
+    },
+    "placement": "floor",
+    "prompt": "prompts/outdoor-architecture/drain-grate.md"
+  },
+  {
+    "id": "park-street/park-bench",
+    "category": "park-street",
+    "name": "Park Bench",
+    "geometry": "four legs; slatted box seat; slatted backrest supports",
+    "variants": [
+      "wooden",
+      "metal",
+      "backless"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.6,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/park-bench.md"
+  },
+  {
+    "id": "park-street/picnic-table",
+    "category": "park-street",
+    "name": "Picnic Table",
+    "geometry": "long tabletop boxes; two benches; triangular support frames",
+    "variants": [
+      "standard",
+      "round"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 1.4,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/picnic-table.md"
+  },
+  {
+    "id": "park-street/outdoor-stool",
+    "category": "park-street",
+    "name": "Outdoor Stool",
+    "geometry": "short cylinder seat atop three or four straight legs",
+    "variants": [
+      "wood",
+      "concrete"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/outdoor-stool.md"
+  },
+  {
+    "id": "park-street/street-lamp",
+    "category": "park-street",
+    "name": "Street Lamp",
+    "geometry": "slender upright cylinder pole; elbow arm or globe-shaped light housing",
+    "variants": [
+      "single",
+      "double",
+      "globe"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.7,
+      "height": 3.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/street-lamp.md"
+  },
+  {
+    "id": "park-street/garden-lamp",
+    "category": "park-street",
+    "name": "Garden Lamp",
+    "geometry": "short post; cone or sphere lamp cap",
+    "variants": [
+      "bollard",
+      "lantern"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/garden-lamp.md"
+  },
+  {
+    "id": "park-street/bollard",
+    "category": "park-street",
+    "name": "Bollard",
+    "geometry": "short capped metal cylinder with broader foot",
+    "variants": [
+      "concrete",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.25,
+      "height": 0.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/bollard.md"
+  },
+  {
+    "id": "park-street/traffic-light",
+    "category": "park-street",
+    "name": "Traffic Light",
+    "geometry": "vertical pole; rounded rectangular signal housing; three colored circular discs",
+    "variants": [
+      "vehicle",
+      "pedestrian"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 3.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/traffic-light.md"
+  },
+  {
+    "id": "park-street/road-sign",
+    "category": "park-street",
+    "name": "Road Sign",
+    "geometry": "post and flat circular or triangular flat-face sign",
+    "variants": [
+      "round",
+      "triangle",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.6,
+      "depth": 0.2,
+      "height": 2.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/road-sign.md"
+  },
+  {
+    "id": "park-street/direction-sign",
+    "category": "park-street",
+    "name": "Direction Sign",
+    "geometry": "single pole; one or more horizontal arrow-like box boards",
+    "variants": [
+      "single",
+      "multi"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.2,
+      "height": 2.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/direction-sign.md"
+  },
+  {
+    "id": "park-street/notice-board",
+    "category": "park-street",
+    "name": "Notice Board",
+    "geometry": "two wooden posts; large framed rectangular board; tiny roof cap",
+    "variants": [
+      "standing",
+      "wall-style"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.25,
+      "height": 2.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/notice-board.md"
+  },
+  {
+    "id": "park-street/trash-bin",
+    "category": "park-street",
+    "name": "Trash Bin",
+    "geometry": "upright cylinder or box shell; dark inset top lid",
+    "variants": [
+      "round",
+      "square",
+      "recycling"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/trash-bin.md"
+  },
+  {
+    "id": "park-street/recycling-station",
+    "category": "park-street",
+    "name": "Recycling Station",
+    "geometry": "two or three side-by-side colored box bins with simple top slots",
+    "variants": [
+      "two-bin",
+      "three-bin"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.5,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/recycling-station.md"
+  },
+  {
+    "id": "park-street/bicycle-rack",
+    "category": "park-street",
+    "name": "Bicycle Rack",
+    "geometry": "two repeated U-shaped assemblies from simple straight cylinders",
+    "variants": [
+      "loop",
+      "rail"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.45,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/bicycle-rack.md"
+  },
+  {
+    "id": "park-street/bicycle",
+    "category": "park-street",
+    "name": "Bicycle",
+    "geometry": "two torus-like simple wheel rings; thin cylindrical triangle frame; handlebar and seat",
+    "variants": [
+      "city",
+      "parked"
+    ],
+    "dimensions": {
+      "width": 1.7,
+      "depth": 0.5,
+      "height": 1.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/bicycle.md"
+  },
+  {
+    "id": "park-street/bus-stop",
+    "category": "park-street",
+    "name": "Bus Stop",
+    "geometry": "two vertical posts; flat roof; bench and stop sign",
+    "variants": [
+      "sign",
+      "shelter"
+    ],
+    "dimensions": {
+      "width": 2.5,
+      "depth": 1.2,
+      "height": 2.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/bus-stop.md"
+  },
+  {
+    "id": "park-street/drinking-fountain",
+    "category": "park-street",
+    "name": "Drinking Fountain",
+    "geometry": "short pedestal block; basin disc; tiny faucet tube",
+    "variants": [
+      "park",
+      "wall-style"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 1.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/drinking-fountain.md"
+  },
+  {
+    "id": "park-street/outdoor-clock",
+    "category": "park-street",
+    "name": "Outdoor Clock",
+    "geometry": "tall pole; round clock housing; simple two hands",
+    "variants": [
+      "single",
+      "double-sided"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.3,
+      "height": 2.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/outdoor-clock.md"
+  },
+  {
+    "id": "park-street/swing-set",
+    "category": "park-street",
+    "name": "Swing Set",
+    "geometry": "A-frame posts; upper crossbeam; two ropes; rectangular suspended seat",
+    "variants": [
+      "single",
+      "double"
+    ],
+    "dimensions": {
+      "width": 2.5,
+      "depth": 1.5,
+      "height": 2.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/swing-set.md"
+  },
+  {
+    "id": "park-street/playground-slide",
+    "category": "park-street",
+    "name": "Playground Slide",
+    "geometry": "raised small platform; ladder rungs; sloping wide chute with side rails",
+    "variants": [
+      "straight",
+      "short"
+    ],
+    "dimensions": {
+      "width": 2.4,
+      "depth": 1.0,
+      "height": 1.7
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/playground-slide.md"
+  },
+  {
+    "id": "park-street/seesaw",
+    "category": "park-street",
+    "name": "Seesaw",
+    "geometry": "central support; long balanced plank; two seat blocks with handles",
+    "variants": [
+      "two-seat",
+      "short"
+    ],
+    "dimensions": {
+      "width": 2.4,
+      "depth": 0.5,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/seesaw.md"
+  },
+  {
+    "id": "park-street/sandbox",
+    "category": "park-street",
+    "name": "Sandbox",
+    "geometry": "low square planked perimeter; flat beige sand fill",
+    "variants": [
+      "square",
+      "round"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 1.8,
+      "height": 0.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/sandbox.md"
+  },
+  {
+    "id": "park-street/outdoor-sculpture",
+    "category": "park-street",
+    "name": "Outdoor Sculpture",
+    "geometry": "stacked and offset simple colored shapes on a plinth",
+    "variants": [
+      "abstract",
+      "geometric"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.9,
+      "height": 1.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/outdoor-sculpture.md"
+  },
+  {
+    "id": "park-street/planter-box",
+    "category": "park-street",
+    "name": "Planter Box",
+    "geometry": "low rectangular timber frame; dark soil; sparse bushes",
+    "variants": [
+      "square",
+      "long"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.5,
+      "height": 0.55
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/planter-box.md"
+  },
+  {
+    "id": "park-street/patio-umbrella",
+    "category": "park-street",
+    "name": "Patio Umbrella",
+    "geometry": "upright pole; radial low-poly conical canopy; simple base weight",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 2.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/park-street/patio-umbrella.md"
+  },
+  {
+    "id": "cafe/cafe-chair",
+    "category": "cafe",
+    "name": "Cafe Chair",
+    "geometry": "four box legs; flat rounded seat; two back supports; rounded box backrest",
+    "variants": [
+      "wooden",
+      "cushioned",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 0.48,
+      "depth": 0.5,
+      "height": 0.85
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/cafe-chair.md"
+  },
+  {
+    "id": "cafe/bar-stool",
+    "category": "cafe",
+    "name": "Bar Stool",
+    "geometry": "circular flat cylinder seat; four straight legs; square footrest loop",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/bar-stool.md"
+  },
+  {
+    "id": "cafe/armchair",
+    "category": "cafe",
+    "name": "Armchair",
+    "geometry": "box seat; two blocky arms; upright rounded back cushion; short legs",
+    "variants": [
+      "rounded",
+      "boxy"
+    ],
+    "dimensions": {
+      "width": 0.85,
+      "depth": 0.75,
+      "height": 0.82
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/armchair.md"
+  },
+  {
+    "id": "cafe/two-seat-sofa",
+    "category": "cafe",
+    "name": "Two Seat Sofa",
+    "geometry": "box base; two seat cushions; two back cushions; side arms; four short legs",
+    "variants": [
+      "straight",
+      "rounded"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.75,
+      "height": 0.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/two-seat-sofa.md"
+  },
+  {
+    "id": "cafe/three-seat-sofa",
+    "category": "cafe",
+    "name": "Three Seat Sofa",
+    "geometry": "long base; three paired cushions; side arms; four to six short legs",
+    "variants": [
+      "straight",
+      "sectional"
+    ],
+    "dimensions": {
+      "width": 2.2,
+      "depth": 0.8,
+      "height": 0.82
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/three-seat-sofa.md"
+  },
+  {
+    "id": "cafe/round-cafe-table",
+    "category": "cafe",
+    "name": "Round Cafe Table",
+    "geometry": "flat cylinder top; cylindrical central stem; disc foot",
+    "variants": [
+      "pedestal",
+      "four-leg"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 0.72
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/round-cafe-table.md"
+  },
+  {
+    "id": "cafe/square-cafe-table",
+    "category": "cafe",
+    "name": "Square Cafe Table",
+    "geometry": "rounded square tabletop; four inset box legs",
+    "variants": [
+      "wood",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 0.72
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/square-cafe-table.md"
+  },
+  {
+    "id": "cafe/dining-table",
+    "category": "cafe",
+    "name": "Dining Table",
+    "geometry": "rectangular tabletop; four legs and optional side apron",
+    "variants": [
+      "two-person",
+      "four-person"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 0.8,
+      "height": 0.74
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/dining-table.md"
+  },
+  {
+    "id": "cafe/coffee-table",
+    "category": "cafe",
+    "name": "Coffee Table",
+    "geometry": "low cylinder or rectangular top; three short sturdy legs",
+    "variants": [
+      "round",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.55,
+      "height": 0.42
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/coffee-table.md"
+  },
+  {
+    "id": "cafe/high-bar-table",
+    "category": "cafe",
+    "name": "High Bar Table",
+    "geometry": "small top; high central post; large stabilization foot",
+    "variants": [
+      "round",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.7,
+      "height": 1.05
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/high-bar-table.md"
+  },
+  {
+    "id": "cafe/coffee-counter",
+    "category": "cafe",
+    "name": "Coffee Counter",
+    "geometry": "large box body; thick wood countertop; vertical inset panels; back shelf and POS anchor",
+    "variants": [
+      "straight",
+      "L-shaped"
+    ],
+    "dimensions": {
+      "width": 2.2,
+      "depth": 0.75,
+      "height": 0.95
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/coffee-counter.md"
+  },
+  {
+    "id": "cafe/espresso-machine",
+    "category": "cafe",
+    "name": "Espresso Machine",
+    "geometry": "rounded box chassis; top housing; two cylinder group heads; portafilters; tray and small buttons",
+    "variants": [
+      "single",
+      "dual-group"
+    ],
+    "dimensions": {
+      "width": 0.75,
+      "depth": 0.45,
+      "height": 0.55
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/espresso-machine.md"
+  },
+  {
+    "id": "cafe/coffee-grinder",
+    "category": "cafe",
+    "name": "Coffee Grinder",
+    "geometry": "upright box housing; transparent-looking solid hopper cone; small tray and outlet",
+    "variants": [
+      "compact",
+      "commercial"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.3,
+      "height": 0.5
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/coffee-grinder.md"
+  },
+  {
+    "id": "cafe/coffee-brewer",
+    "category": "cafe",
+    "name": "Coffee Brewer",
+    "geometry": "block base; small cylinder carafe; box filter housing; simplified spout",
+    "variants": [
+      "drip",
+      "pour-over"
+    ],
+    "dimensions": {
+      "width": 0.32,
+      "depth": 0.28,
+      "height": 0.45
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/coffee-brewer.md"
+  },
+  {
+    "id": "cafe/electric-kettle",
+    "category": "cafe",
+    "name": "Electric Kettle",
+    "geometry": "round cylinder vessel; small lid; curved-looking spout from tapered segments; blocky handle",
+    "variants": [
+      "round",
+      "geometric"
+    ],
+    "dimensions": {
+      "width": 0.28,
+      "depth": 0.24,
+      "height": 0.3
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/electric-kettle.md"
+  },
+  {
+    "id": "cafe/coffee-cup",
+    "category": "cafe",
+    "name": "Coffee Cup",
+    "geometry": "short hollow-look cylinder cup; simple torus-segment or box handle; circular base",
+    "variants": [
+      "espresso",
+      "mug",
+      "takeaway"
+    ],
+    "dimensions": {
+      "width": 0.12,
+      "depth": 0.12,
+      "height": 0.14
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/coffee-cup.md"
+  },
+  {
+    "id": "cafe/cup-stack",
+    "category": "cafe",
+    "name": "Cup Stack",
+    "geometry": "two to five tapered cylinder cups nested vertically on base",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.15,
+      "depth": 0.15,
+      "height": 0.28
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/cup-stack.md"
+  },
+  {
+    "id": "cafe/plate",
+    "category": "cafe",
+    "name": "Plate",
+    "geometry": "shallow flattened cylinder with narrow raised rim",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.23,
+      "depth": 0.23,
+      "height": 0.035
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/plate.md"
+  },
+  {
+    "id": "cafe/serving-tray",
+    "category": "cafe",
+    "name": "Serving Tray",
+    "geometry": "thin rounded rectangle slab with low raised border",
+    "variants": [
+      "round",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.3,
+      "height": 0.045
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/serving-tray.md"
+  },
+  {
+    "id": "cafe/cake-stand",
+    "category": "cafe",
+    "name": "Cake Stand",
+    "geometry": "flat disc platform; narrow cylinder stem; wider foot disc",
+    "variants": [
+      "single",
+      "tiered"
+    ],
+    "dimensions": {
+      "width": 0.32,
+      "depth": 0.32,
+      "height": 0.24
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/cake-stand.md"
+  },
+  {
+    "id": "cafe/pastry-display",
+    "category": "cafe",
+    "name": "Pastry Display",
+    "geometry": "low rectangular display base; two shelves; solid pastel cover framing",
+    "variants": [
+      "open",
+      "enclosed"
+    ],
+    "dimensions": {
+      "width": 0.75,
+      "depth": 0.4,
+      "height": 0.55
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/pastry-display.md"
+  },
+  {
+    "id": "cafe/menu-board",
+    "category": "cafe",
+    "name": "Menu Board",
+    "geometry": "thin rectangular board with bold abstract lines (no legible text); frame",
+    "variants": [
+      "standing",
+      "wall-mounted"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "depth": 0.12,
+      "height": 1.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/menu-board.md"
+  },
+  {
+    "id": "cafe/pos-terminal",
+    "category": "cafe",
+    "name": "POS Terminal",
+    "geometry": "tilted thin rectangular monitor; small base and payment pad",
+    "variants": [
+      "screen",
+      "terminal"
+    ],
+    "dimensions": {
+      "width": 0.22,
+      "depth": 0.22,
+      "height": 0.28
+    },
+    "placement": "surface",
+    "prompt": "prompts/cafe/pos-terminal.md"
+  },
+  {
+    "id": "cafe/counter-shelving",
+    "category": "cafe",
+    "name": "Counter Shelving",
+    "geometry": "three open horizontal plank shelves between upright supports",
+    "variants": [
+      "open",
+      "closed"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 0.35,
+      "height": 1.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/counter-shelving.md"
+  },
+  {
+    "id": "cafe/refrigerator",
+    "category": "cafe",
+    "name": "Refrigerator",
+    "geometry": "tall rectangular box; inset door; minimalist handle; small bottom feet",
+    "variants": [
+      "under-counter",
+      "standing"
+    ],
+    "dimensions": {
+      "width": 0.7,
+      "depth": 0.65,
+      "height": 1.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/refrigerator.md"
+  },
+  {
+    "id": "cafe/display-refrigerator",
+    "category": "cafe",
+    "name": "Display Refrigerator",
+    "geometry": "solid frame; two or three shelf surfaces; front window simulated as flat tinted panel",
+    "variants": [
+      "single",
+      "double-door"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "depth": 0.65,
+      "height": 1.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/cafe/display-refrigerator.md"
+  },
+  {
+    "id": "cafe/pendant-lamp",
+    "category": "cafe",
+    "name": "Pendant Lamp",
+    "geometry": "ceiling cable cylinder; cone or dome shade; simple bulb shape",
+    "variants": [
+      "cone",
+      "dome",
+      "globe"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.65
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/cafe/pendant-lamp.md"
+  },
+  {
+    "id": "cafe/wall-shelf",
+    "category": "cafe",
+    "name": "Wall Shelf",
+    "geometry": "one or three wooden slabs with simple brackets",
+    "variants": [
+      "single",
+      "multi-tier"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 0.25,
+      "height": 0.55
+    },
+    "placement": "wall",
+    "prompt": "prompts/cafe/wall-shelf.md"
+  },
+  {
+    "id": "workspace/office-desk",
+    "category": "workspace",
+    "name": "Office Desk",
+    "geometry": "large rectangular top; four legs; modesty panel; optional drawer",
+    "variants": [
+      "rectangular",
+      "L-shaped"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 0.7,
+      "height": 0.74
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/office-desk.md"
+  },
+  {
+    "id": "workspace/standing-desk",
+    "category": "workspace",
+    "name": "Standing Desk",
+    "geometry": "rectangular top; two height-adjustable-looking telescoping legs; wide feet",
+    "variants": [
+      "fixed",
+      "adjustable"
+    ],
+    "dimensions": {
+      "width": 1.3,
+      "depth": 0.7,
+      "height": 1.05
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/standing-desk.md"
+  },
+  {
+    "id": "workspace/office-chair",
+    "category": "workspace",
+    "name": "Office Chair",
+    "geometry": "five-spoke low base; central post; rounded seat and back; small armrests",
+    "variants": [
+      "basic",
+      "ergonomic"
+    ],
+    "dimensions": {
+      "width": 0.65,
+      "depth": 0.65,
+      "height": 1.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/office-chair.md"
+  },
+  {
+    "id": "workspace/visitor-chair",
+    "category": "workspace",
+    "name": "Visitor Chair",
+    "geometry": "four legs; flat seat; straight backrest",
+    "variants": [
+      "wooden",
+      "cushioned"
+    ],
+    "dimensions": {
+      "width": 0.5,
+      "depth": 0.52,
+      "height": 0.87
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/visitor-chair.md"
+  },
+  {
+    "id": "workspace/meeting-table",
+    "category": "workspace",
+    "name": "Meeting Table",
+    "geometry": "wide top; central post or four legs",
+    "variants": [
+      "round",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 1.0,
+      "height": 0.74
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/meeting-table.md"
+  },
+  {
+    "id": "workspace/conference-chair",
+    "category": "workspace",
+    "name": "Conference Chair",
+    "geometry": "compact seat; back; wheeled base simplified to spheres",
+    "variants": [
+      "basic",
+      "wheeled"
+    ],
+    "dimensions": {
+      "width": 0.6,
+      "depth": 0.6,
+      "height": 0.95
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/conference-chair.md"
+  },
+  {
+    "id": "workspace/lounge-sofa",
+    "category": "workspace",
+    "name": "Lounge Sofa",
+    "geometry": "box base; large cushions; square side arms",
+    "variants": [
+      "two-seat",
+      "modular"
+    ],
+    "dimensions": {
+      "width": 1.7,
+      "depth": 0.8,
+      "height": 0.85
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/lounge-sofa.md"
+  },
+  {
+    "id": "workspace/bookshelf",
+    "category": "workspace",
+    "name": "Bookshelf",
+    "geometry": "two tall side boxes; three to five plank shelves; few colored book blocks",
+    "variants": [
+      "open",
+      "closed",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 0.95,
+      "depth": 0.3,
+      "height": 1.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/bookshelf.md"
+  },
+  {
+    "id": "workspace/storage-cabinet",
+    "category": "workspace",
+    "name": "Storage Cabinet",
+    "geometry": "rectangular body; one or two front panels; handles; low feet",
+    "variants": [
+      "single",
+      "double-door"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.45,
+      "height": 1.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/storage-cabinet.md"
+  },
+  {
+    "id": "workspace/filing-cabinet",
+    "category": "workspace",
+    "name": "Filing Cabinet",
+    "geometry": "short box chassis; two or three flat inset drawer fronts; small handles",
+    "variants": [
+      "two-drawer",
+      "three-drawer"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.55,
+      "height": 0.75
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/filing-cabinet.md"
+  },
+  {
+    "id": "workspace/locker",
+    "category": "workspace",
+    "name": "Locker",
+    "geometry": "upright box unit; one or multiple thin door panels; handles and tiny vents",
+    "variants": [
+      "single",
+      "multi-door"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "depth": 0.5,
+      "height": 1.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/locker.md"
+  },
+  {
+    "id": "workspace/desk-divider",
+    "category": "workspace",
+    "name": "Desk Divider",
+    "geometry": "upright thin rounded rectangle panel on short mounting feet",
+    "variants": [
+      "fabric-style",
+      "solid"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.08,
+      "height": 0.55
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/desk-divider.md"
+  },
+  {
+    "id": "workspace/acoustic-partition",
+    "category": "workspace",
+    "name": "Acoustic Partition",
+    "geometry": "upright panel slab with two stabilizing feet",
+    "variants": [
+      "standing",
+      "wall-mounted"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.15,
+      "height": 1.8
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/acoustic-partition.md"
+  },
+  {
+    "id": "workspace/whiteboard",
+    "category": "workspace",
+    "name": "Whiteboard",
+    "geometry": "thin wide white slab with frame; tiny marker tray",
+    "variants": [
+      "wall",
+      "mobile"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.09,
+      "height": 0.9
+    },
+    "placement": "wall",
+    "prompt": "prompts/workspace/whiteboard.md"
+  },
+  {
+    "id": "workspace/bulletin-board",
+    "category": "workspace",
+    "name": "Bulletin Board",
+    "geometry": "thin cork-colored rectangle slab; contrast border; sparse colored note squares",
+    "variants": [
+      "cork-style",
+      "magnetic"
+    ],
+    "dimensions": {
+      "width": 1.1,
+      "depth": 0.06,
+      "height": 0.75
+    },
+    "placement": "wall",
+    "prompt": "prompts/workspace/bulletin-board.md"
+  },
+  {
+    "id": "workspace/laptop",
+    "category": "workspace",
+    "name": "Laptop",
+    "geometry": "thin box keyboard deck; hinged upright screen slab; dark display panel",
+    "variants": [
+      "open",
+      "closed"
+    ],
+    "dimensions": {
+      "width": 0.32,
+      "depth": 0.25,
+      "height": 0.23
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/laptop.md"
+  },
+  {
+    "id": "workspace/monitor",
+    "category": "workspace",
+    "name": "Monitor",
+    "geometry": "thin upright screen panel; short support stem; small rectangular foot",
+    "variants": [
+      "single",
+      "dual"
+    ],
+    "dimensions": {
+      "width": 0.55,
+      "depth": 0.2,
+      "height": 0.42
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/monitor.md"
+  },
+  {
+    "id": "workspace/keyboard",
+    "category": "workspace",
+    "name": "Keyboard",
+    "geometry": "thin rectangular slab; simple clustered key bumps rather than individual letters",
+    "variants": [
+      "compact",
+      "full-size"
+    ],
+    "dimensions": {
+      "width": 0.43,
+      "depth": 0.15,
+      "height": 0.035
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/keyboard.md"
+  },
+  {
+    "id": "workspace/mouse",
+    "category": "workspace",
+    "name": "Mouse",
+    "geometry": "small stretched ellipsoid with flat underside",
+    "variants": [
+      "rounded",
+      "compact"
+    ],
+    "dimensions": {
+      "width": 0.08,
+      "depth": 0.12,
+      "height": 0.04
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/mouse.md"
+  },
+  {
+    "id": "workspace/desk-lamp",
+    "category": "workspace",
+    "name": "Desk Lamp",
+    "geometry": "short weighted foot; angled slender stem; cone shade",
+    "variants": [
+      "fixed",
+      "articulated"
+    ],
+    "dimensions": {
+      "width": 0.2,
+      "depth": 0.25,
+      "height": 0.5
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/desk-lamp.md"
+  },
+  {
+    "id": "workspace/desk-organizer",
+    "category": "workspace",
+    "name": "Desk Organizer",
+    "geometry": "short box tray; one vertical cylinder pencil cup; few paper blocks",
+    "variants": [
+      "pencil-holder",
+      "tray"
+    ],
+    "dimensions": {
+      "width": 0.28,
+      "depth": 0.18,
+      "height": 0.18
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/desk-organizer.md"
+  },
+  {
+    "id": "workspace/notebook",
+    "category": "workspace",
+    "name": "Notebook",
+    "geometry": "two thin rectangular covers and a shallow page box",
+    "variants": [
+      "open",
+      "closed"
+    ],
+    "dimensions": {
+      "width": 0.22,
+      "depth": 0.16,
+      "height": 0.02
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/notebook.md"
+  },
+  {
+    "id": "workspace/book-stack",
+    "category": "workspace",
+    "name": "Book Stack",
+    "geometry": "three to six offset thin colored book boxes",
+    "variants": [
+      "vertical",
+      "horizontal"
+    ],
+    "dimensions": {
+      "width": 0.28,
+      "depth": 0.2,
+      "height": 0.2
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/book-stack.md"
+  },
+  {
+    "id": "workspace/printer",
+    "category": "workspace",
+    "name": "Printer",
+    "geometry": "large low box base; top scanner lid; paper tray and slot",
+    "variants": [
+      "desktop",
+      "floor-standing"
+    ],
+    "dimensions": {
+      "width": 0.55,
+      "depth": 0.45,
+      "height": 0.3
+    },
+    "placement": "surface",
+    "prompt": "prompts/workspace/printer.md"
+  },
+  {
+    "id": "workspace/water-dispenser",
+    "category": "workspace",
+    "name": "Water Dispenser",
+    "geometry": "tall box pedestal; large inverted bottle cylinder; dispenser panel",
+    "variants": [
+      "bottle",
+      "bottleless"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 1.45
+    },
+    "placement": "floor",
+    "prompt": "prompts/workspace/water-dispenser.md"
+  },
+  {
+    "id": "workspace/wall-clock",
+    "category": "workspace",
+    "name": "Wall Clock",
+    "geometry": "round cylinder face; two simple pointer bars; outer rim",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.08,
+      "height": 0.35
+    },
+    "placement": "wall",
+    "prompt": "prompts/workspace/wall-clock.md"
+  },
+  {
+    "id": "architecture/floor-tile",
+    "category": "architecture",
+    "name": "Floor Tile",
+    "geometry": "thin modular box slab with consistent snap dimensions",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 0.08
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/floor-tile.md"
+  },
+  {
+    "id": "architecture/wall-segment",
+    "category": "architecture",
+    "name": "Wall Segment",
+    "geometry": "upright rectangular slab with consistent end boundaries",
+    "variants": [
+      "full",
+      "half-height"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.15,
+      "height": 2.7
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/wall-segment.md"
+  },
+  {
+    "id": "architecture/wall-corner",
+    "category": "architecture",
+    "name": "Wall Corner",
+    "geometry": "two perpendicular wall slabs joined seamlessly",
+    "variants": [
+      "inner",
+      "outer"
+    ],
+    "dimensions": {
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 2.7
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/wall-corner.md"
+  },
+  {
+    "id": "architecture/wall-opening",
+    "category": "architecture",
+    "name": "Wall Opening",
+    "geometry": "two side piers and header slab leaving centered void",
+    "variants": [
+      "window",
+      "door"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.15,
+      "height": 2.7
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/wall-opening.md"
+  },
+  {
+    "id": "architecture/window",
+    "category": "architecture",
+    "name": "Window",
+    "geometry": "outer rectangular frame; horizontal sill; one or two panes simulated with tinted solid thin slabs",
+    "variants": [
+      "square",
+      "tall",
+      "wide"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.15,
+      "height": 1.2
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/window.md"
+  },
+  {
+    "id": "architecture/door",
+    "category": "architecture",
+    "name": "Door",
+    "geometry": "flat door slab; simple frame, block handle, hinge pivot",
+    "variants": [
+      "single",
+      "double",
+      "sliding"
+    ],
+    "dimensions": {
+      "width": 0.95,
+      "depth": 0.12,
+      "height": 2.1
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/door.md"
+  },
+  {
+    "id": "architecture/door-frame",
+    "category": "architecture",
+    "name": "Door Frame",
+    "geometry": "three narrow boxes forming top and side jambs",
+    "variants": [
+      "wood",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 1.05,
+      "depth": 0.18,
+      "height": 2.2
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/door-frame.md"
+  },
+  {
+    "id": "architecture/glass-partition",
+    "category": "architecture",
+    "name": "Glass Partition",
+    "geometry": "thin transparent-looking solid tinted face with frame rails",
+    "variants": [
+      "full",
+      "half-height"
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "depth": 0.1,
+      "height": 2.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/glass-partition.md"
+  },
+  {
+    "id": "architecture/column",
+    "category": "architecture",
+    "name": "Column",
+    "geometry": "tall box or 8-sided cylinder with small base and top caps",
+    "variants": [
+      "square",
+      "round"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 2.7
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/column.md"
+  },
+  {
+    "id": "architecture/ceiling-panel",
+    "category": "architecture",
+    "name": "Ceiling Panel",
+    "geometry": "horizontal broad thin slab with optional straight inset beam",
+    "variants": [
+      "plain",
+      "beam"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 0.12
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/architecture/ceiling-panel.md"
+  },
+  {
+    "id": "architecture/roof-segment",
+    "category": "architecture",
+    "name": "Roof Segment",
+    "geometry": "flat slab or two sloped wedge-like prisms with simple cap ridge",
+    "variants": [
+      "flat",
+      "sloped"
+    ],
+    "dimensions": {
+      "width": 2.5,
+      "depth": 2.0,
+      "height": 0.4
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/architecture/roof-segment.md"
+  },
+  {
+    "id": "architecture/staircase",
+    "category": "architecture",
+    "name": "Staircase",
+    "geometry": "repeated rectangular step treads and risers on one support body",
+    "variants": [
+      "straight",
+      "L-shaped"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "depth": 3.0,
+      "height": 1.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/staircase.md"
+  },
+  {
+    "id": "architecture/railing",
+    "category": "architecture",
+    "name": "Railing",
+    "geometry": "horizontal top rail; two end posts; repeated narrow balusters",
+    "variants": [
+      "wood",
+      "metal"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 0.12,
+      "height": 1.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/railing.md"
+  },
+  {
+    "id": "architecture/handrail",
+    "category": "architecture",
+    "name": "Handrail",
+    "geometry": "horizontal cylinder with simple post or wall brackets",
+    "variants": [
+      "straight",
+      "corner"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 0.12,
+      "height": 0.15
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/handrail.md"
+  },
+  {
+    "id": "architecture/baseboard",
+    "category": "architecture",
+    "name": "Baseboard",
+    "geometry": "long thin box strip with clean capped ends",
+    "variants": [
+      "straight",
+      "corner"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.06,
+      "height": 0.12
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/baseboard.md"
+  },
+  {
+    "id": "architecture/platform",
+    "category": "architecture",
+    "name": "Platform",
+    "geometry": "raised modular slab with box sides",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 0.25
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/platform.md"
+  },
+  {
+    "id": "architecture/room-divider",
+    "category": "architecture",
+    "name": "Room Divider",
+    "geometry": "tall narrow panel or open shelf frame",
+    "variants": [
+      "solid",
+      "open-shelf"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "depth": 0.3,
+      "height": 2.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/room-divider.md"
+  },
+  {
+    "id": "architecture/awning",
+    "category": "architecture",
+    "name": "Awning",
+    "geometry": "sloped rectangular canopy slab with two simple support brackets",
+    "variants": [
+      "flat",
+      "sloped"
+    ],
+    "dimensions": {
+      "width": 1.6,
+      "depth": 0.95,
+      "height": 0.3
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/awning.md"
+  },
+  {
+    "id": "architecture/storefront-facade",
+    "category": "architecture",
+    "name": "Storefront Facade",
+    "geometry": "full-width wall frontage; wide doorway; two framed large windows; top sign band",
+    "variants": [
+      "cafe",
+      "office"
+    ],
+    "dimensions": {
+      "width": 4.0,
+      "depth": 0.3,
+      "height": 3.0
+    },
+    "placement": "floor",
+    "prompt": "prompts/architecture/storefront-facade.md"
+  },
+  {
+    "id": "architecture/signboard",
+    "category": "architecture",
+    "name": "Signboard",
+    "geometry": "thin rectangular plate; short posts or small hanging brackets",
+    "variants": [
+      "wall-mounted",
+      "hanging"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.12,
+      "height": 0.42
+    },
+    "placement": "wall",
+    "prompt": "prompts/architecture/signboard.md"
+  },
+  {
+    "id": "lighting-decor/floor-lamp",
+    "category": "lighting-decor",
+    "name": "Floor Lamp",
+    "geometry": "circular base; long slim stem; cone or globe shade",
+    "variants": [
+      "tripod",
+      "pole"
+    ],
+    "dimensions": {
+      "width": 0.55,
+      "depth": 0.55,
+      "height": 1.6
+    },
+    "placement": "floor",
+    "prompt": "prompts/lighting-decor/floor-lamp.md"
+  },
+  {
+    "id": "lighting-decor/table-lamp",
+    "category": "lighting-decor",
+    "name": "Table Lamp",
+    "geometry": "small cylinder base; short stem; cone shade",
+    "variants": [
+      "dome",
+      "cone"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.45
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/table-lamp.md"
+  },
+  {
+    "id": "lighting-decor/wall-lamp",
+    "category": "lighting-decor",
+    "name": "Wall Lamp",
+    "geometry": "small wall mount plate; short arm; globe or cone shade",
+    "variants": [
+      "sconce",
+      "globe"
+    ],
+    "dimensions": {
+      "width": 0.32,
+      "depth": 0.3,
+      "height": 0.35
+    },
+    "placement": "wall",
+    "prompt": "prompts/lighting-decor/wall-lamp.md"
+  },
+  {
+    "id": "lighting-decor/ceiling-lamp",
+    "category": "lighting-decor",
+    "name": "Ceiling Lamp",
+    "geometry": "small overhead plate; short drop rod; shade",
+    "variants": [
+      "pendant",
+      "flush"
+    ],
+    "dimensions": {
+      "width": 0.48,
+      "depth": 0.48,
+      "height": 0.4
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/lighting-decor/ceiling-lamp.md"
+  },
+  {
+    "id": "lighting-decor/string-lights",
+    "category": "lighting-decor",
+    "name": "String Lights",
+    "geometry": "repeated spaced tiny low-poly bulbs along straight or drooping segmented line",
+    "variants": [
+      "straight",
+      "hanging"
+    ],
+    "dimensions": {
+      "width": 2.5,
+      "depth": 0.1,
+      "height": 0.35
+    },
+    "placement": "ceiling",
+    "prompt": "prompts/lighting-decor/string-lights.md"
+  },
+  {
+    "id": "lighting-decor/lantern",
+    "category": "lighting-decor",
+    "name": "Lantern",
+    "geometry": "square framed cage and simple top handle with solid central light core",
+    "variants": [
+      "square",
+      "round"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.25,
+      "height": 0.42
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/lantern.md"
+  },
+  {
+    "id": "lighting-decor/picture-frame",
+    "category": "lighting-decor",
+    "name": "Picture Frame",
+    "geometry": "flat rectangle artwork face; four surrounding thin frame bars",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.6,
+      "depth": 0.07,
+      "height": 0.8
+    },
+    "placement": "wall",
+    "prompt": "prompts/lighting-decor/picture-frame.md"
+  },
+  {
+    "id": "lighting-decor/wall-art",
+    "category": "lighting-decor",
+    "name": "Wall Art",
+    "geometry": "flat backing slab with two to four abstract geometric raised blocks",
+    "variants": [
+      "abstract",
+      "geometric"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "depth": 0.06,
+      "height": 0.6
+    },
+    "placement": "wall",
+    "prompt": "prompts/lighting-decor/wall-art.md"
+  },
+  {
+    "id": "lighting-decor/rug",
+    "category": "lighting-decor",
+    "name": "Rug",
+    "geometry": "very thin flat box or 12-sided disc with simple edge trim",
+    "variants": [
+      "round",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 1.6,
+      "depth": 1.0,
+      "height": 0.025
+    },
+    "placement": "floor",
+    "prompt": "prompts/lighting-decor/rug.md"
+  },
+  {
+    "id": "lighting-decor/curtain",
+    "category": "lighting-decor",
+    "name": "Curtain",
+    "geometry": "two hanging thin planar panels with few rigid vertical folds",
+    "variants": [
+      "straight",
+      "paired"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "depth": 0.12,
+      "height": 1.8
+    },
+    "placement": "wall",
+    "prompt": "prompts/lighting-decor/curtain.md"
+  },
+  {
+    "id": "lighting-decor/vase",
+    "category": "lighting-decor",
+    "name": "Vase",
+    "geometry": "tapered cylinder base, widened central body, narrow neck cylinder",
+    "variants": [
+      "tall",
+      "short"
+    ],
+    "dimensions": {
+      "width": 0.2,
+      "depth": 0.2,
+      "height": 0.3
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/vase.md"
+  },
+  {
+    "id": "lighting-decor/decorative-bowl",
+    "category": "lighting-decor",
+    "name": "Decorative Bowl",
+    "geometry": "wide short cylinder with visible raised ring rim",
+    "variants": [
+      "round",
+      "shallow"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.1
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/decorative-bowl.md"
+  },
+  {
+    "id": "lighting-decor/candle",
+    "category": "lighting-decor",
+    "name": "Candle",
+    "geometry": "single short cylinder wax body; tiny wick and solid yellow stylized flame",
+    "variants": [
+      "single",
+      "grouped"
+    ],
+    "dimensions": {
+      "width": 0.08,
+      "depth": 0.08,
+      "height": 0.18
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/candle.md"
+  },
+  {
+    "id": "lighting-decor/cushion",
+    "category": "lighting-decor",
+    "name": "Cushion",
+    "geometry": "rounded flat box with slight pillow-like proportions",
+    "variants": [
+      "square",
+      "round"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 0.12
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/cushion.md"
+  },
+  {
+    "id": "lighting-decor/storage-basket",
+    "category": "lighting-decor",
+    "name": "Storage Basket",
+    "geometry": "tapered box-like container; thick top rim; two stub handles",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.35,
+      "height": 0.38
+    },
+    "placement": "floor",
+    "prompt": "prompts/lighting-decor/storage-basket.md"
+  },
+  {
+    "id": "lighting-decor/decorative-sculpture",
+    "category": "lighting-decor",
+    "name": "Decorative Sculpture",
+    "geometry": "small stacked cubes, cylinders, and spheres on a narrow display base",
+    "variants": [
+      "cube",
+      "sphere-stack"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.6
+    },
+    "placement": "surface",
+    "prompt": "prompts/lighting-decor/decorative-sculpture.md"
+  },
+  {
+    "id": "small-props/croissant",
+    "category": "small-props",
+    "name": "Croissant",
+    "geometry": "two or three tapered curved-look oval segments joined in an arc",
+    "variants": [
+      "single",
+      "plate-set"
+    ],
+    "dimensions": {
+      "width": 0.18,
+      "depth": 0.12,
+      "height": 0.08
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/croissant.md"
+  },
+  {
+    "id": "small-props/bread-loaf",
+    "category": "small-props",
+    "name": "Bread Loaf",
+    "geometry": "rounded rectangular box body with simple top ridge",
+    "variants": [
+      "plain",
+      "sliced-look"
+    ],
+    "dimensions": {
+      "width": 0.22,
+      "depth": 0.14,
+      "height": 0.12
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/bread-loaf.md"
+  },
+  {
+    "id": "small-props/donut",
+    "category": "small-props",
+    "name": "Donut",
+    "geometry": "low-segment torus with solid colored surface and simple ring topping",
+    "variants": [
+      "plain",
+      "iced"
+    ],
+    "dimensions": {
+      "width": 0.14,
+      "depth": 0.14,
+      "height": 0.045
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/donut.md"
+  },
+  {
+    "id": "small-props/cupcake",
+    "category": "small-props",
+    "name": "Cupcake",
+    "geometry": "tapered small cylinder base; hemispherical frosting cap; tiny spherical topper",
+    "variants": [
+      "vanilla",
+      "berry"
+    ],
+    "dimensions": {
+      "width": 0.1,
+      "depth": 0.1,
+      "height": 0.14
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/cupcake.md"
+  },
+  {
+    "id": "small-props/cake-slice",
+    "category": "small-props",
+    "name": "Cake Slice",
+    "geometry": "triangular wedge prism base; thin pastel topping slab",
+    "variants": [
+      "chocolate",
+      "strawberry"
+    ],
+    "dimensions": {
+      "width": 0.15,
+      "depth": 0.12,
+      "height": 0.1
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/cake-slice.md"
+  },
+  {
+    "id": "small-props/sandwich",
+    "category": "small-props",
+    "name": "Sandwich",
+    "geometry": "two triangular bread wedges with thin green and orange layers",
+    "variants": [
+      "triangle",
+      "stacked"
+    ],
+    "dimensions": {
+      "width": 0.17,
+      "depth": 0.13,
+      "height": 0.07
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/sandwich.md"
+  },
+  {
+    "id": "small-props/iced-drink",
+    "category": "small-props",
+    "name": "Iced Drink",
+    "geometry": "tall tapered cup cylinder; lid disc; straw thin cylinder",
+    "variants": [
+      "coffee",
+      "fruit"
+    ],
+    "dimensions": {
+      "width": 0.12,
+      "depth": 0.12,
+      "height": 0.22
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/iced-drink.md"
+  },
+  {
+    "id": "small-props/water-bottle",
+    "category": "small-props",
+    "name": "Water Bottle",
+    "geometry": "main cylinder; tapered shoulder; short neck and contrasting cap",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.08,
+      "depth": 0.08,
+      "height": 0.25
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/water-bottle.md"
+  },
+  {
+    "id": "small-props/teapot",
+    "category": "small-props",
+    "name": "Teapot",
+    "geometry": "rounded body sphere; short spout; loop-like blocky handle; lid disc",
+    "variants": [
+      "round",
+      "geometric"
+    ],
+    "dimensions": {
+      "width": 0.24,
+      "depth": 0.18,
+      "height": 0.2
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/teapot.md"
+  },
+  {
+    "id": "small-props/watering-can",
+    "category": "small-props",
+    "name": "Watering Can",
+    "geometry": "rounded cylinder container; small handle; angled spout made from cylinders",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.22,
+      "height": 0.25
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/watering-can.md"
+  },
+  {
+    "id": "small-props/shovel",
+    "category": "small-props",
+    "name": "Shovel",
+    "geometry": "long slender shaft; small D handle; flattened spade wedge",
+    "variants": [
+      "garden",
+      "spade"
+    ],
+    "dimensions": {
+      "width": 0.2,
+      "depth": 0.09,
+      "height": 0.9
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/shovel.md"
+  },
+  {
+    "id": "small-props/rake",
+    "category": "small-props",
+    "name": "Rake",
+    "geometry": "long slim shaft; crossbeam head with six to eight short teeth",
+    "variants": [
+      "garden",
+      "leaf"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.1,
+      "height": 1.1
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/rake.md"
+  },
+  {
+    "id": "small-props/hose-reel",
+    "category": "small-props",
+    "name": "Hose Reel",
+    "geometry": "circular drum between two side discs; rectangular support frame",
+    "variants": [
+      "wall",
+      "standing"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.3,
+      "height": 0.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/hose-reel.md"
+  },
+  {
+    "id": "small-props/birdhouse",
+    "category": "small-props",
+    "name": "Birdhouse",
+    "geometry": "small square box house; triangular roof; circular entrance; post",
+    "variants": [
+      "post",
+      "hanging"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.35,
+      "height": 1.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/birdhouse.md"
+  },
+  {
+    "id": "small-props/bird-feeder",
+    "category": "small-props",
+    "name": "Bird Feeder",
+    "geometry": "upright short post; simple shallow tray; small roof slab",
+    "variants": [
+      "tray",
+      "roofed"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 1.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/bird-feeder.md"
+  },
+  {
+    "id": "small-props/dog-bowl",
+    "category": "small-props",
+    "name": "Dog Bowl",
+    "geometry": "short shallow cylinder with raised rim and contrasting interior disc",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.25,
+      "height": 0.08
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/dog-bowl.md"
+  },
+  {
+    "id": "small-props/road-tile",
+    "category": "small-props",
+    "name": "Road Tile",
+    "geometry": "flat rectangular slab; optional dashed lane markings made of thin boxes",
+    "variants": [
+      "plain",
+      "striped"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 0.07
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/road-tile.md"
+  },
+  {
+    "id": "small-props/curb",
+    "category": "small-props",
+    "name": "Curb",
+    "geometry": "long low raised narrow box with beveled top edge",
+    "variants": [
+      "straight",
+      "corner"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 0.25,
+      "height": 0.18
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/curb.md"
+  },
+  {
+    "id": "small-props/crosswalk",
+    "category": "small-props",
+    "name": "Crosswalk",
+    "geometry": "five parallel thin white stripe boxes on a flat road-colored slab",
+    "variants": [
+      "short",
+      "long"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "depth": 2.0,
+      "height": 0.075
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/crosswalk.md"
+  },
+  {
+    "id": "small-props/traffic-cone",
+    "category": "small-props",
+    "name": "Traffic Cone",
+    "geometry": "orange truncated cone on square base; white flat band",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.28,
+      "depth": 0.28,
+      "height": 0.5
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/traffic-cone.md"
+  },
+  {
+    "id": "small-props/manhole-cover",
+    "category": "small-props",
+    "name": "Manhole Cover",
+    "geometry": "flat round 12-sided disc inset over dark circle base",
+    "variants": [
+      "round",
+      "square"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "depth": 0.45,
+      "height": 0.03
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/manhole-cover.md"
+  },
+  {
+    "id": "small-props/pencil",
+    "category": "small-props",
+    "name": "Pencil",
+    "geometry": "thin hexagonal cylinder; pointed cone tip; colored eraser cap",
+    "variants": [
+      "single",
+      "grouped"
+    ],
+    "dimensions": {
+      "width": 0.015,
+      "depth": 0.015,
+      "height": 0.19
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/pencil.md"
+  },
+  {
+    "id": "small-props/pen-holder",
+    "category": "small-props",
+    "name": "Pen Holder",
+    "geometry": "short hollow-look cylinder pot; few slim colored cylinders",
+    "variants": [
+      "ceramic",
+      "metal-look"
+    ],
+    "dimensions": {
+      "width": 0.11,
+      "depth": 0.11,
+      "height": 0.17
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/pen-holder.md"
+  },
+  {
+    "id": "small-props/document-stack",
+    "category": "small-props",
+    "name": "Document Stack",
+    "geometry": "three to seven flat paper boxes with slight offsets",
+    "variants": [
+      "neat",
+      "messy"
+    ],
+    "dimensions": {
+      "width": 0.25,
+      "depth": 0.3,
+      "height": 0.09
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/document-stack.md"
+  },
+  {
+    "id": "small-props/tissue-box",
+    "category": "small-props",
+    "name": "Tissue Box",
+    "geometry": "small rectangular box; narrow top slot; one protruding folded paper plane",
+    "variants": [
+      "square",
+      "rectangular"
+    ],
+    "dimensions": {
+      "width": 0.22,
+      "depth": 0.12,
+      "height": 0.1
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/tissue-box.md"
+  },
+  {
+    "id": "small-props/cleaning-bucket",
+    "category": "small-props",
+    "name": "Cleaning Bucket",
+    "geometry": "tapered cylinder container; thin arch-like handle made from segments",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.3
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/cleaning-bucket.md"
+  },
+  {
+    "id": "small-props/broom",
+    "category": "small-props",
+    "name": "Broom",
+    "geometry": "long shaft; rectangular bristle block; short tapered bristle shapes",
+    "variants": [
+      "indoor",
+      "outdoor"
+    ],
+    "dimensions": {
+      "width": 0.28,
+      "depth": 0.1,
+      "height": 1.2
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/broom.md"
+  },
+  {
+    "id": "small-props/mop",
+    "category": "small-props",
+    "name": "Mop",
+    "geometry": "long shaft; flat mop head; few thick cloth strips",
+    "variants": [
+      "flat",
+      "string"
+    ],
+    "dimensions": {
+      "width": 0.35,
+      "depth": 0.14,
+      "height": 1.15
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/mop.md"
+  },
+  {
+    "id": "small-props/caution-sign",
+    "category": "small-props",
+    "name": "Caution Sign",
+    "geometry": "two slanted rectangular boards in A-frame shape; abstract warning triangle",
+    "variants": [
+      "yellow",
+      "orange"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.62
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/caution-sign.md"
+  },
+  {
+    "id": "small-props/gift-box",
+    "category": "small-props",
+    "name": "Gift Box",
+    "geometry": "cube base; thin contrasting lid; two crossing rectangular ribbons; simple bow blocks",
+    "variants": [
+      "small",
+      "large"
+    ],
+    "dimensions": {
+      "width": 0.3,
+      "depth": 0.3,
+      "height": 0.32
+    },
+    "placement": "surface",
+    "prompt": "prompts/small-props/gift-box.md"
+  },
+  {
+    "id": "small-props/wall-banner",
+    "category": "small-props",
+    "name": "Wall Banner",
+    "geometry": "thin vertical hanging colored cloth-like solid slab; top dowel",
+    "variants": [
+      "vertical",
+      "horizontal"
+    ],
+    "dimensions": {
+      "width": 0.55,
+      "depth": 0.08,
+      "height": 1.0
+    },
+    "placement": "wall",
+    "prompt": "prompts/small-props/wall-banner.md"
+  },
+  {
+    "id": "small-props/planter-stand",
+    "category": "small-props",
+    "name": "Planter Stand",
+    "geometry": "three narrow wooden legs; elevated ring or box platform sized for flower pot",
+    "variants": [
+      "short",
+      "tall"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "depth": 0.4,
+      "height": 0.65
+    },
+    "placement": "floor",
+    "prompt": "prompts/small-props/planter-stand.md"
+  }
+]
